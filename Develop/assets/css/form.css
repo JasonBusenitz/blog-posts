@@ -5,24 +5,29 @@
 /*
   Tags
 */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: double 1rem;
+}
+
 aside {
-  background: linear-gradient(
-    var(--light-accent), 
-    var(--circle-color), 
-    var(--dark-accent)
-  );
+  background: linear-gradient(var(--light-accent),
+      var(--circle-color),
+      var(--dark-accent));
   clip-path: circle(20rem at center);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-aside, 
+aside,
 section {
   flex: 1 1 50%;
 }
 
-aside > h2 {
+aside>h2 {
   font-size: 4rem;
   color: white;
   text-shadow: 1px 1px 1px var(--dark-accent);
@@ -34,7 +39,7 @@ form {
   position: relative;
 }
 
-form > *:not(label) {
+form>*:not(label) {
   margin: 1rem 0;
   padding: 0.5rem;
 }
@@ -86,6 +91,11 @@ section {
 */
 .dark section {
   border-left: solid .5rem var(--disabled);
+}
+
+.row {
+  display: flex;
+  flex: 1 1 100%;
 }
 
 /*
