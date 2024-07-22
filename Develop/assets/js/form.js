@@ -14,7 +14,6 @@ submitBttn.addEventListener('click', function (event) {
         title: title.value,
         content: content.value.trim()
     };
-    console.log(userPost)
 
     if (!userPost.username ||
         !userPost.title ||
