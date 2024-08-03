@@ -73,6 +73,6 @@ checkTheme();
 
 backBttn.addEventListener('click', function (event) {
     event.preventDefault();
-    let url = './form.html';
+    let url = './index.html';
     redirectPage(url);
 });
