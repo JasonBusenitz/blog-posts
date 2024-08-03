@@ -39,6 +39,7 @@ footer {
   position: fixed;
   inset: 0;
   top: calc(100% - 5rem);
+  border-top: double 1rem #000000;
 }
 
 li {

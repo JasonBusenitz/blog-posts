@@ -89,13 +89,25 @@ section {
 /*
   Classes
 */
+
+.dark {
+  background: #000000;
+  color: #ffffff;
+}
+
 .dark section {
-  border-left: solid .5rem var(--disabled);
+  padding: 2rem;
+  display: flex;
+  align-items: stretch;
+  flex-flow: column wrap;
+  justify-content: center;
+  border-left: double 1rem #ffffff;
 }
 
 .row {
   display: flex;
   flex: 1 1 100%;
+  height: 90vh;
 }
 
 /*
